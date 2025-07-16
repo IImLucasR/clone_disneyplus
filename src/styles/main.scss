@@ -117,13 +117,17 @@ body {
     padding: 8px 14px;
     letter-spacing: 1px;
 
-    //&:hover {
-    //    background-color: color.adjust(variaveis.$corDeFundoBotaoPrimario, 3%)
-    //}
+    &:hover {
+        background-color: lighten(variaveis.$corDeFundoBotaoPrimario, 3%)
+    }
 
     &--secondary {
         background-color: variaveis.$corDeFundoBotaoSecundario;
         border-color: variaveis.$corDeFundoBotaoSecundario;
+
+        &:hover {
+            background-color: lighten(variaveis.$corDeFundoBotaoSecundario, 3%)
+        }
     }
 
     &--dark {
